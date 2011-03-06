@@ -8,7 +8,7 @@
 #import <Foundation/NSObject.h>
 #import <Availability2.h>
 
-@class NSString, NSMutableArray, SBStatusBar, SBStatusBarContentsView, UIWindow, UIColor;
+@class NSString, NSMutableArray, SBStatusBar, SBStatusWindow, SBStatusBarContentsView, UIWindow, UIColor;
 
 @interface SBStatusBarController : NSObject {
 	UIWindow* _slidingStatusBarWindow;
